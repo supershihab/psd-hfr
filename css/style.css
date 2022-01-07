@@ -1,0 +1,501 @@
+:root{
+    --bgGold: #E0ECC1; 
+    --offBlue: #6888B1; 
+}
+/* ANCHOR GENERAL CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: var(--bgGold);
+
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* ANCHOR HEADER SECTION */
+.header-section{
+    background: url("../assets/bg-hero.png")center top no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 40px 0px 80px;
+}
+
+.header-section .logo-text{
+    font-size: 23px;
+    color: #fff;
+    letter-spacing: 5px;
+    padding: 0px 0px 0px 5px;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-item .nav-text{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: #fff;
+}
+.navbar .navbar-nav .nav-item .nav-text:hover{
+    color: var(--bgGold);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1.5rem;
+}
+
+
+.header-section .hero-text{
+    width: 100%;
+    padding: 80px 0px;
+}
+.header-section .hero-text-header{
+    width: 100%;
+}
+.header-section .hero-text-header h1{
+    font-size: 6rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header-section .hero-text-sub-header{
+    width: 100%;
+    padding: 40px 0px;
+}
+.header-section .hero-text-sub-header p{
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.navbar-light .navbar-toggler{
+    color:#fff
+}
+
+.header-section .header-design-shape{
+    position: absolute;
+    left: 120px;
+}
+
+
+/* ANCHOR MENU-SECTION */
+.menu-section{
+    width: 100%;
+    padding: 80px 0px 120px;
+    background: url("../assets/bg-menu.png") center center no-repeat;
+    background-size: cover;
+    margin: -10% 0%;
+    position: relative;
+    z-index: -1;
+
+}
+.menu-section .menu-header{
+    width: 100%;
+    padding: 80px 0px;
+}
+.menu-section .menu-header h2{
+    color: var(--offBlue);
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;   
+}
+
+.menu-section .menu-card{
+    padding: 0px 30px;
+}
+
+.menu-section .menu-card .menu-card-img img{
+    width: 100%;
+}
+
+.menu-section .menu-card .menu-card-text{
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 20px 30px;
+}
+
+.menu-section .menu-card .menu-card-text h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.menu-section .menu-card .menu-card-text p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+}
+
+.menu-section .menu-card .menu-card-text h5{
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.menu-section .menu-button {
+    padding: 80px 0px 0px;
+}
+
+.menu-section .menu-button a{
+    padding: 20px 80px;
+    border: 1px solid var(--offBlue);
+    border-radius: 50px; 
+    background-color: var(--offBlue);
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.menu-section .menu-button a:hover,
+.menu-section .menu-button a:focus{
+    background: transparent;
+    color: var(--offBlue);
+}
+
+
+.menu-section .menu-design-shape{
+    position: absolute;
+    right: 9px;
+    bottom: 84px;
+}
+
+
+/* ANCHOR DISCOUNT SECTION */
+.discount-section{
+    background-color: #fff;
+    width: 100%;
+    margin: 190px 0px 0px;
+}
+
+.discount-section .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.discount-section .container-fluid .row{
+    --bs-gutter-x: 0;
+ }
+
+.discount-section .discount-img{
+    width: 100%;
+}
+.discount-section .discount-img img{
+    width: 100%;
+}
+.discount-section .discount-text {
+    width: 100%;
+    background-color: #fff;
+    padding: 0px 40px;
+}
+.discount-section .discount-text h2{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+    letter-spacing: 0.5px;
+    color: #000;
+    padding: 30px 0px;
+    margin: 0px;
+}
+
+.discount-section .discount-text p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    letter-spacing: .5px;
+    color: #000;
+    padding: 0px 0px 30px;
+    margin: 0;
+}
+.discount-section .discount-text .discount-button{
+    padding: 30px 0px;
+}
+.discount-section .discount-text .discount-button a{
+    padding: 20px 60px;
+    border: 1px solid var(--offBlue);
+    border-radius: 50px;
+    background-color: var(--offBlue);
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.discount-section .discount-text .discount-button a:hover,
+.discount-section .discount-text .discount-button a:focus{
+    background-color: transparent;
+    color: var(--offBlue);
+}
+
+
+/* ANCHOR PROMO SECTION */
+.promo-section{
+    background-color: #fff;
+    width: 100%;
+}
+
+.promo-section .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.promo-section .container-fluid .row{
+    --bs-gutter-x: 0;
+ }
+
+.promo-section .promo-img{
+    width: 100%;
+}
+.promo-section .promo-img img{
+    width: 100%;
+}
+.promo-section .promo-text {
+    width: 100%;
+    background-color: #fff;
+    padding: 0px 40px;
+}
+.promo-section .promo-text h2{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+    letter-spacing: 0.5px;
+    color: #000;
+    padding: 30px 0px;
+    margin: 0px;
+}
+
+.promo-section .promo-text p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    letter-spacing: .5px;
+    color: #000;
+    padding: 0px 0px 30px;
+    margin: 0;
+}
+.promo-section .promo-text .promo-button{
+    padding: 30px 0px;
+}
+.promo-section .promo-text .promo-button a{
+    padding: 20px 60px;
+    border: 1px solid var(--offBlue);
+    border-radius: 50px;
+    background-color: var(--offBlue);
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.promo-section .promo-text .promo-button a:hover,
+.promo-section .promo-text .promo-button a:focus{
+    background-color: transparent;
+    color: var(--offBlue);
+}
+
+
+/* ANCHOR HOW TO ORDER SECTION */
+.order-section{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: var(--offBlue);
+    text-align: center;
+    color: #fff;
+}
+.order-section .order-header{
+    width: 100%;
+}
+.order-section .order-header h2{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 4rem;
+}
+.order-section .order-icon{
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15px 0px;
+    margin: 40px 40%;
+    border-radius: 50%;
+}
+.order-section .order-icon h3{
+    color: var(--offBlue);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.order-section .order-text{
+    width: 100%;
+}
+.order-section .order-text h4{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 3.5rem;
+}
+.order-section .order-text p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    letter-spacing: 0.8px;
+    color: #fff;
+}
+
+/* ANCHOR DELIVERY SECTION */
+.delivery-section{
+    width: 100%;
+    background: url("../assets/bg-delivery.png") no-repeat center top;
+    background-size: cover;
+    padding: 80px 0px;
+    text-align: center;
+    color: var(--offBlue);
+}
+.delivery-section .delivery-header{
+    padding: 0px 0px 30px;
+}
+.delivery-section .delivery-header h2{
+    margin: 0px;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 8rem;
+}
+.delivery-section .delivery-text{
+    padding: 0px 0px 90px;
+}
+.delivery-section .delivery-text p{
+    font-size: 1.5rem;
+    letter-spacing: .2px;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+.delivery-section .delivery-button{
+    padding: 0px 0px 80px;
+}
+.delivery-section .delivery-button a{
+    border: 1px solid var(--offBlue);
+    padding: 25px 100px;
+    background-color: var(--offBlue);
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.delivery-section .delivery-button a:hover,
+.delivery-section .delivery-button a:focus{
+    background-color: transparent;
+    color: var(--offBlue);
+}
+
+
+/* ANCHOR TESTIMONIAL SECTION */
+.testimonial-section{
+    width: 100%;
+    padding: 80px 0px 0px;
+    text-align: center;
+}
+.testimonial-section .testimonial-header{
+    width: 100%;
+    padding: 0px 0px 40px;
+}
+.testimonial-section .testimonial-header img{
+    width: 50px;
+    height: 40px;
+}
+.testimonial-section .testimonial-text{
+    padding: 0px 0px 40px;
+    color: var(--offBlue);
+}
+.testimonial-section .testimonial-text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+.testimonial-section .testimonial-text h4{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.testimonial-section .testimonial-socials{
+    width: 100%;
+    padding: 20px 0px 40px;
+}
+.testimonial-section .testimonial-socials span{
+    padding: 0px 10px 0px;
+}
+.testimonial-section .testimonial-socials span a img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* ANCHOR FOOTER SECTION */
+.footer-section{
+    width: 100%;
+    padding: 0px;
+    background: url("../assets/bg-footer.png")no-repeat center top;
+    background-size: 100% 100%;
+
+}
+
+.footer-section .footer-about{
+    color: #fff;
+}
+.footer-section .footer-about h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 2rem;
+}
+.footer-section .footer-about p{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 2rem;
+}
+
+.footer-section .footer-sub-about{
+    color: #fff
+}
+.footer-section .footer-sub-about h6{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.footer-section .footer-sub-about ul{
+    padding: 0px
+}
+.footer-section .footer-sub-about li a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+}
+
+.footer-section .sub{
+    margin: 210px 0px 15px;
+}

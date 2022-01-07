@@ -1,0 +1,479 @@
+/* ANCHOR Mini Devices: Small Phones like Galaxy Folds */
+@media all and (min-width: 279px) and (max-width: 320px){
+/* Code Start */
+    /* ANCHOR Mini HEADER SECTION */
+.header-section{ padding: 10px 5px 40px; }
+.header-section .hero-text{ padding: 10px 0px; }
+.header-section .hero-text-header h1{ font-size: 1.5rem; } 
+.header-section .hero-text-sub-header{ padding: 10px 0px; }
+.header-section .hero-text-sub-header p{ font-size: .6rem; line-height: 1rem;}
+.navbar .navbar-nav .nav-item .nav-text{ font-size: .8rem; }
+.navbar-nav{padding: 6px 0px; text-align: center;}
+.navbar-nav .nav-link:hover{ border: 1px solid var(--bgGold); background-color: rgba(236, 241, 158, 0.644); border-radius: 5px;}
+.header-section .header-design-shape{ display: none; }
+
+    /* ANCHOR Mini MENU SECTION */
+.menu-section{
+    width: 100%;
+    padding: 80px 0px 68px;
+    background: url(../assets/bg-menu.png) center top no-repeat;
+    background-size: contain;
+    margin: -56% 0%;
+    position: relative;
+    z-index: -1;
+}
+.menu-section .menu-header{ padding: 100px 0px 30px; }
+.menu-section .menu-header h2{ font-size: 1.2rem; }
+.menu-section .menu-card{ margin: 0px 0px 25px; padding: 0px 0px; }
+.menu-section .menu-card .menu-card-text h3{ font-size: 1.3rem; }
+.menu-section .menu-card .menu-card-text p{ font-size: 16px; }
+.menu-section .menu-card .menu-card-text h5{ font-size: 1.2rem; }
+.menu-section .menu-button{ padding: 40px 0px; }
+.menu-section .menu-button a{ 
+    padding: 20px;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+.menu-section .menu-design-shape{ width: 54px; right: 105px; bottom: 30px; }
+
+    /* ANCHOR Mini DISCOUNT SECTION */
+.discount-section .discount-text h2{
+    font-size: 1.7rem;
+    line-height: 30px;
+}
+.discount-section .discount-text p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.discount-section .discount-text .discount-button{
+    padding: 0px 0px 30px;
+    text-align: center;
+}
+.discount-section .discount-text .discount-button a{
+    font-size: 10px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+/* ANCHOR Mini PROMO SECTION */
+.promo-section .promo-text h2{
+    font-size: 1.7rem;
+    line-height: 30px;
+}
+.promo-section .promo-text p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.promo-section .promo-text .promo-button{
+    padding: 0px 0px 30px;
+    text-align: center;
+}
+.promo-section .promo-text .promo-button a{
+    font-size: 10px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+/* ANCHOR Mini ORDER SECTION */
+.order-section{
+    padding: 40px 0px;
+}
+
+.order-section .order-icon {
+    margin: 40px 34%;
+}
+.order-section .order-header h2{
+    font-size: 1.5rem;
+}
+.order-section .order-text h4{
+    font-size: 1.5rem;
+}
+.order-section .order-text p{
+    font-size: 1rem;
+}
+
+    /* ANCHOR Mini DELIVERY SECTION */
+.delivery-section{
+    padding: 0px;
+}
+.delivery-section .delivery-header{
+    padding: 0px;
+}
+.delivery-section .delivery-header h2{
+    font-size: 2rem;
+}
+.delivery-section .delivery-text p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.delivery-section .delivery-button a{
+    font-size: 1rem;
+    padding: 20px;
+}
+
+    /* ANCHOR Mini TESTIMONIAL SECTION */
+.testimonial-section .testimonial-header img{
+    width: 30px;
+    height: 30px;
+}
+.testimonial-section .testimonial-text p{
+    font-size: 1rem;
+}
+.testimonial-section .testimonial-text h4{
+    font-size: 1.3rem;
+}
+
+.testimonial-section .testimonial-socials span a img{
+    width: 30px;
+    height: 30px;
+}
+
+    /* ANCHOR MINI FOOTER SECTION */
+.footer-section{
+    background: none;
+    background-color: #6888B1;
+}
+.footer-section .sub{
+    margin: 50px 5px 20px;
+}
+
+.footer-section .margin-none{
+    margin: 5px 0px;
+}
+/* Code End*/
+}
+    
+/* ANCHOR Extra Small Devices: Normal Phones */
+@media all and (min-width: 321px) and (max-width: 480px){
+/* Code Start */
+    /* ANCHOR Extra Small HEADER SECTION */
+.header-section{ padding: 10px 5px 90px; }
+.header-section .hero-text{ padding: 20px 0px; }
+.header-section .hero-text-header h1{ font-size: 2rem; }
+.header-section .hero-text-sub-header{ padding: 10px 0px;}
+.header-section .hero-text-sub-header p{ font-size: 1rem; line-height: 1.5rem; }
+.navbar .navbar-nav .nav-item .nav-text{ font-size: 1.2rem;}
+.navbar-nav{padding: 10px 0px; text-align: center;}
+.navbar-nav .nav-link:hover{ border: 1px solid var(--bgGold); background-color: rgba(236, 241, 158, 0.644); border-radius: 5px;}
+.header-section .header-design-shape{ display: none; }
+
+    /* ANCHOR Extra Small MENU SECTION */
+.menu-section{
+    width: 100%;
+    padding: 160px 0px 65px;
+    background: url(../assets/bg-menu.png) center top no-repeat;
+    background-size: contain;
+    margin: -56% 0%;
+    position: relative;
+    z-index: -1;
+}
+.menu-section .menu-header{ padding: 100px 0px 30px; }
+.menu-section .menu-header h2{ font-size: 1.5rem; }
+.menu-section .menu-card{ margin: 0px 0px 25px; padding: 0px 0px; }
+.menu-section .menu-card .menu-card-text h3{ font-size: 1.6rem; }
+.menu-section .menu-card .menu-card-text p{ font-size: 20px; }
+.menu-section .menu-card .menu-card-text h5{ font-size: 1.5rem; }
+.menu-section .menu-button{ padding: 40px 0px; }
+.menu-section .menu-button a{ 
+    padding: 20px 30px;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+.menu-section .menu-design-shape{ width: 60px;}
+
+    /* ANCHOR EXTRA SMALL DISCOUNT SECTION */
+
+.discount-section .discount-text{text-align: center;}
+
+.discount-section .discount-text h2{
+    font-size: 1.7rem;
+    line-height: 30px;
+}
+.discount-section .discount-text p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.discount-section .discount-text .discount-button{
+    padding: 0px 0px 60px;
+    text-align: center;
+}
+.discount-section .discount-text .discount-button a{
+    font-size: 10px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+    /* ANCHOR EXTRA SMALL PROMO SECTION */
+
+.promo-section .promo-text{text-align: center;}
+
+.promo-section .promo-text h2{
+    font-size: 1.7rem;
+    line-height: 30px;
+}
+.promo-section .promo-text p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.promo-section .promo-text .promo-button{
+    padding: 0px 0px 60px;
+    text-align: center;
+}
+.promo-section .promo-text .promo-button a{
+    font-size: 10px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+/* ANCHOR Extra Small ORDER SECTION */
+.order-section{
+    padding: 40px 0px;
+}
+
+.order-section .order-icon {
+    margin: 40px 34%;
+}
+.order-section .order-header h2{
+    font-size: 1.5rem;
+}
+.order-section .order-text h4{
+    font-size: 1.5rem;
+}
+.order-section .order-text p{
+    font-size: 1rem;
+}
+
+/* ANCHOR Extra Small DELIVERY SECTION */
+.delivery-section{
+    padding: 0px;
+}
+.delivery-section .delivery-header{
+    padding: 0px;
+}
+.delivery-section .delivery-header h2{
+    font-size: 2rem;
+}
+.delivery-section .delivery-text p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.delivery-section .delivery-button a{
+    font-size: 1rem;
+    padding: 20px;
+}
+
+    /* ANCHOR Extra Small TESTIMONIAL SECTION */
+.testimonial-section .testimonial-header img{
+    width: 30px;
+    height: 30px;
+}
+.testimonial-section .testimonial-text p{
+    font-size: 1rem;
+}
+.testimonial-section .testimonial-text h4{
+    font-size: 1.3rem;
+}
+
+.testimonial-section .testimonial-socials span a img{
+    width: 30px;
+    height: 30px;
+}
+
+    /* ANCHOR Extra Small FOOTER SECTION */
+.footer-section{
+    background: none;
+    background-color: #6888B1;
+}
+.footer-section .sub{
+    margin: 50px 5px 20px;
+}
+
+.footer-section .margin-none{
+    margin: 5px 0px;
+
+}
+/* Code End*/
+}
+
+/* ANCHOR Small Devices: Large Phones and Portrait Tablets */
+@media all and (min-width: 481px) and (max-width: 767px){
+/* Code Start */
+    /* ANCHOR Small HEADER SECTION */
+.header-section{ padding: 10px 5px 90px; }
+.header-section .hero-text{ padding: 20px 0px; }
+.header-section .hero-text-header h1{ font-size: 2rem; }
+.header-section .hero-text-sub-header{ padding: 10px 0px;}
+.header-section .hero-text-sub-header p{ font-size: 1rem; line-height: 1.5rem; }
+.navbar .navbar-nav .nav-item .nav-text{ font-size: 1.2rem;}
+.navbar-nav{padding: 10px 0px; text-align: center;}
+.navbar-nav .nav-link:hover{ border: 1px solid var(--bgGold); background-color: rgba(236, 241, 158, 0.644); border-radius: 5px;}
+.header-section .header-design-shape {
+    position: absolute;
+    left: 21px;
+    width: 100px;
+    bottom: 430px;
+}
+
+    /* ANCHOR Small MENU SECTION */
+.menu-section{
+    width: 100%;
+    padding: 200px 0px 30px;
+    background: url(../assets/bg-menu.png) center top no-repeat;
+    background-size: contain;
+    margin: -56% 0%;
+    position: relative;
+    z-index: -1;
+}
+.menu-section .menu-header{ padding: 100px 0px 30px; }
+.menu-section .menu-header h2{ font-size: 1.5rem; }
+.menu-section .menu-card{ margin: 0px 0px 25px; padding: 0px 0px; }
+.menu-section .menu-card .menu-card-text{ text-align: center;}
+.menu-section .menu-card .menu-card-text h3{ font-size: 1.6rem; }
+.menu-section .menu-card .menu-card-text p{ font-size: 22px; }
+.menu-section .menu-card .menu-card-text h5{ font-size: 1.4rem; }
+.menu-section .menu-button{ padding: 40px 0px; }
+.menu-section .menu-button a{ 
+    padding: 20px 50px;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+.menu-section .menu-design-shape{ width: 60px;}
+
+
+    /* ANCHOR Small DISCOUNT SECTION */
+.discount-section{ margin: 280px 0px 0px; }
+
+.discount-section .discount-text{text-align: center;}
+
+.discount-section .discount-text h2{
+    font-size: 1.7rem;
+    line-height: 30px;
+}
+.discount-section .discount-text p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.discount-section .discount-text .discount-button{
+    padding: 0px 0px 60px;
+    text-align: center;
+}
+.discount-section .discount-text .discount-button a{
+    font-size: 10px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+    /* ANCHOR Small PROMO SECTION */
+
+.promo-section .promo-text{text-align: center;}
+
+.promo-section .promo-text h2{
+    font-size: 1.7rem;
+    line-height: 30px;
+}
+.promo-section .promo-text p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.promo-section .promo-text .promo-button{
+    padding: 0px 0px 60px;
+    text-align: center;
+}
+.promo-section .promo-text .promo-button a{
+    font-size: 10px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+/* ANCHOR Small ORDER SECTION */
+.order-section{
+    padding: 40px 0px;
+}
+
+.order-section .order-icon {
+    margin: 40px 34%;
+}
+.order-section .order-header h2{
+    font-size: 1.5rem;
+}
+.order-section .order-text h4{
+    font-size: 1.5rem;
+}
+.order-section .order-text p{
+    font-size: 1rem;
+}
+
+/* ANCHOR Small DELIVERY SECTION */
+.delivery-section{
+    padding: 0px;
+}
+.delivery-section .delivery-header{
+    padding: 0px;
+}
+.delivery-section .delivery-header h2{
+    font-size: 2rem;
+}
+.delivery-section .delivery-text p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.delivery-section .delivery-button a{
+    font-size: 1rem;
+    padding: 20px;
+}
+
+    /* ANCHOR Small TESTIMONIAL SECTION */
+.testimonial-section .testimonial-header img{
+    width: 30px;
+    height: 30px;
+}
+.testimonial-section .testimonial-text p{
+    font-size: 1rem;
+}
+.testimonial-section .testimonial-text h4{
+    font-size: 1.3rem;
+}
+
+.testimonial-section .testimonial-socials span a img{
+    width: 30px;
+    height: 30px;
+}
+
+    /* ANCHOR Small FOOTER SECTION */
+.footer-section{
+    background: none;
+    background-color: #6888B1;
+}
+.footer-section .sub{
+    margin: 50px 5px 20px;
+}
+
+.footer-section .margin-none{
+    margin: 5px 0px;
+}
+/* Code End*/
+}
+
+/* ANCHOR Medium Devices: Landscape Tablets and normal laptops */
+@media all and (min-width: 768px) and (max-width: 1024px){
+/* Code Start */
+    /* ANCHOR Medium FOOTER SECTION */
+.footer-section{
+    background: none;
+    background-color: #6888B1;
+}
+.footer-section .sub{
+    margin: 50px 5px 20px;
+}
+
+.footer-section .margin-none{
+    margin: 50px 0px 20px;
+}
+/* Code End*/
+}
